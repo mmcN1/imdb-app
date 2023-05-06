@@ -3,7 +3,7 @@ import './Header.css'
 const Header = () => {
   return (
     <div>
-      <span onClick={() => window.location.reload()} className="header">🎥 IMBD Hub 🎬</span>
+      <span onClick={() => window.location.reload()} className="header">🎥IMBD Hub🎬</span>
     </div>
   );
 };

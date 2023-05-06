@@ -20,6 +20,7 @@ const CustomPagination = ({ setPage, numOfPages = 10 }) => {
         justifyContent: "center",
         marginTop: 10,
         color: 'white',
+        fontSize: '40px',
       }}
     >
       <ThemeProvider theme={darkTheme}>

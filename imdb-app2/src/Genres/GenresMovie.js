@@ -57,7 +57,7 @@ const GenresMovie = ({
             ))}
             {genres && genres.map((genre) => (
                 <Chip label={genre.name}
-                    style={{ margin: '4px', color: 'black', backgroundColor: 'aliceblue' }}
+                    style={{fontSize: '16px', fontWeight: 600, margin: '4px', color: 'black', backgroundColor: 'aliceblue' }}
                     size={"small"}
                     key={genre.id}
                     clickable
