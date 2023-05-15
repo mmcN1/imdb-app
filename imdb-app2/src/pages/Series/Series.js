@@ -31,7 +31,7 @@ const Series = () => {
 
     return (
         <div>
-            <span className="pageTitle" style={{marginTop: '-10px'}}>Diziler</span>
+            <span className="pageTitle" style={{marginTop: '-10px'}}>Tv Series</span>
             <GenresSeries type='tv' genres={genres} setGenres={setGenres} selectedGenres={selectedGenres} setSelectedGenres={setSelectedGenres} />
             <div className="trending">
                 {content &&

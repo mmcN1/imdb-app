@@ -18,9 +18,9 @@ const App = () => {
         <Container>
           <Routes overlap='rectangular'>
             <Route path="/" Component={Trending} exact />
-            <Route path="/filmler" Component={Movies} />
-            <Route path="/diziler" Component={Series} />
-            <Route path="/ara" Component={Search} />
+            <Route path="/movies" Component={Movies} />
+            <Route path="/series" Component={Series} />
+            <Route path="/search" Component={Search} />
           </Routes>
         </Container>
       </div>

@@ -28,7 +28,7 @@ const Movies = () => {
 
   return (
     <div>
-      <span className="pageTitle">Filmler</span>
+      <span className="pageTitle">Movies</span>
       <GenresMovie type='movie' genres={genres} setGenres={setGenres} selectedGenres={selectedGenres} setSelectedGenres={setSelectedGenres} />
       <div className="trending">
         {content &&

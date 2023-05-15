@@ -13,9 +13,9 @@ const SimpleBottomNavigation = ( ) => {
 
   useEffect(() => {
     if (value === 0) navigate("/");
-    else if (value === 1) navigate("/filmler");
-    else if (value === 2) navigate("/diziler");
-    else if (value === 3) navigate("/ara");
+    else if (value === 1) navigate("/movies");
+    else if (value === 2) navigate("/series");
+    else if (value === 3) navigate("/search");
     window.scroll(10, 10)
     // eslint-disable-next-line
   }, [value]);
@@ -36,22 +36,22 @@ const SimpleBottomNavigation = ( ) => {
     >
       <BottomNavigationAction
         style={{ color: "aliceblue" }}
-        label="Popüler"
+        label="Trending"
         icon={<WhatshotIcon />}
       />
       <BottomNavigationAction
         style={{ color: "aliceblue" }}
-        label="Filmler"
+        label="Movies"
         icon={<MovieIcon />}
       />
       <BottomNavigationAction
         style={{ color: "aliceblue" }}
-        label="Diziler"
+        label="Tv Series"
         icon={<TvIcon />}
       />
       <BottomNavigationAction
         style={{ color: "aliceblue" }}
-        label="Ara"
+        label="Searh"
         icon={<SearchIcon />}
       />
     </BottomNavigation>

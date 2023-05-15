@@ -21,7 +21,7 @@ const Trending = () => {
 
   return (
     <div>
-      <span className="pageTitle">Popüler Filmler</span>
+      <span className="pageTitle">Trending</span>
       <div className="trending">
         {content &&
           content.map((c) => (

@@ -128,7 +128,7 @@ const ContentModal = ({ children, media_type, id }) => {
                                     target='_blank'
                                     href={`https://www.youtube.com/watch?v=${video}`}
                                 >
-                                    Fragmanı İzle
+                                    Watch Trailer
                                 </Button>
                             </div>
                         </div>
