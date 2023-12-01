@@ -1,0 +1,22 @@
+.carouselItem {
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.carouselImg {
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 4px aliceblue;
+}
+@media (max-width: 865px) {
+    .carouselItem {
+        margin-bottom: -10px;
+    }
+    
+    .carouselTxt {
+        font-size: 10px;
+        margin-bottom: -5px;
+    }
+}
